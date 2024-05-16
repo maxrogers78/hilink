@@ -30,3 +30,10 @@ declare interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
 }
+
+declare interface CampSiteProps {
+  backgroundImage: string;
+  title: string;
+  subtitle: string;
+  peopleJoined: string;
+}
