@@ -4,7 +4,7 @@ import FeatureItem from '@/components/feature-item';
 
 export default function FeaturesSection() {
   return (
-    <section className='flex-center flex-col overflow-hidden border-2 border-amber-500 bg-feature-bg bg-center bg-no-repeat py-24'>
+    <section className='flex-center flex-col overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24'>
       <div className='max-container padding-container relative flex w-full justify-end'>
         <div className='flex flex-1 lg:min-h-[900px]'>
           <Image
