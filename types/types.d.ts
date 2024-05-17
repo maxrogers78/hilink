@@ -8,7 +8,6 @@ declare interface NavLink {
 declare interface Feature {
   title: string;
   icon: string;
-  variant: string;
   description: string;
 }
 
